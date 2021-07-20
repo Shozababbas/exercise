@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "0bcf8413-fcb8-41e6-9677-aab16662d763",
+		"name": "Extenda Retail API's",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "check if a number is perfect",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}:{{localport}}/perfect-number/check/5",
+					"host": [
+						"{{localhost}}"
+					],
+					"port": "{{localport}}",
+					"path": [
+						"perfect-number",
+						"check",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check if numbers in range are perfect",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"from\":5,\n    \"to\":15\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localhost}}:{{localport}}/perfect-number/check-all",
+					"host": [
+						"{{localhost}}"
+					],
+					"port": "{{localport}}",
+					"path": [
+						"perfect-number",
+						"check-all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
