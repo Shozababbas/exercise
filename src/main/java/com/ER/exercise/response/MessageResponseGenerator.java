@@ -1,4 +1,4 @@
-package com.extenda_retail.exercise.response;
+package com.ER.exercise.response;
 
 public class MessageResponseGenerator {
 

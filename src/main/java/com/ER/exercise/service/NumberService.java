@@ -1,8 +1,7 @@
-package com.extenda_retail.exercise.service;
+package com.ER.exercise.service;
 
 import java.util.List;
-
-import com.extenda_retail.exercise.request.Range;
+import com.ER.exercise.request.Range;
 
 public interface NumberService {
 

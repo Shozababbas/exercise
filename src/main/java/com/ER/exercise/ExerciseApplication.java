@@ -1,4 +1,4 @@
-package com.extenda_retail.exercise;
+package com.ER.exercise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.extenda_retail.exercise.controller;
+package com.ER.exercise.controller;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.extenda_retail.exercise.request.Range;
-import com.extenda_retail.exercise.response.MessageResponseGenerator;
-import com.extenda_retail.exercise.service.NumberService;
+import com.ER.exercise.request.Range;
+import com.ER.exercise.response.MessageResponseGenerator;
+import com.ER.exercise.service.NumberService;
 
 import lombok.extern.slf4j.Slf4j;
 

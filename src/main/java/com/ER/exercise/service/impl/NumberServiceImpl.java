@@ -1,13 +1,13 @@
-package com.extenda_retail.exercise.service.impl;
+package com.ER.exercise.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.extenda_retail.exercise.request.Range;
-import com.extenda_retail.exercise.response.MessageResponseGenerator;
-import com.extenda_retail.exercise.service.NumberService;
+import com.ER.exercise.request.Range;
+import com.ER.exercise.response.MessageResponseGenerator;
+import com.ER.exercise.service.NumberService;
 
 @Service
 public class NumberServiceImpl implements NumberService {
